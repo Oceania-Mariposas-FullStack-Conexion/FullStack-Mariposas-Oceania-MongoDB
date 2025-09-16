@@ -61,7 +61,7 @@ const Home = () => {
                         }}
                     >
                         {butterflies.map((butterfly) => (
-                            <SwiperSlide key={butterfly.id}>
+                            <SwiperSlide key={butterfly._id}>
                                 <ButterflyCard butterfly={butterfly} />
                             </SwiperSlide>
                         ))}
